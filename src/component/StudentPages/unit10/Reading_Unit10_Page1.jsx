@@ -9,7 +9,7 @@ import sound5 from "../../../assets/audio/ClassBook/Unit 10/P 92/Pg92_1.4_Adult 
 import AudioWithCaption from "../../AudioWithCaption";
 import audioBtn from "../../../assets/Page 01/Audio btn.svg";
 import pauseBtn from "../../../assets/Page 01/Right Video Button.svg";
-import video3 from "../../../assets/videos/reading/grade 3 unit 10 page 94-95 reading.mp4";
+// import video3 from "../../../assets/videos/reading/grade 3 unit 10 page 94-95 reading.mp4";
 import { useContext } from "react";
 import { AudioContext } from "../../../AudioContext";
 
@@ -144,7 +144,7 @@ const playSound = (path, id) => {
         </svg>
       </div>
 
-      <div
+      {/* <div
         className="pauseBtn-icon-CD-page21 hover:scale-110 transition"
         style={{ overflow: "visible" }}
       >
@@ -191,7 +191,7 @@ const playSound = (path, id) => {
             height="90"
           />
         </svg>
-      </div>
+      </div> */}
       <audio ref={audioRef} style={{ display: "none" }} />
     </div>
   );
