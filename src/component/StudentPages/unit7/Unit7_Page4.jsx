@@ -8,7 +8,7 @@ import sound3 from "../../../assets/audio/ClassBook/Unit 7/P 61/Pg61_4.1_Boy.mp3
 import sound4 from "../../../assets/audio/ClassBook/Unit 7/P 61/Pg61_4.2_Boy.mp3";
 import sound5 from "../../../assets/audio/ClassBook/Unit 7/P 61/Pg61_5.1_Adult Lady.mp3";
 import sound6 from "../../../assets/audio/ClassBook/Unit 7/P 61/Pg61_6.1_Adult Lady.mp3";
-import video from "../../../assets/videos/grade 3 unit 7 page 61.mp4";
+// import video from "../../../assets/videos/grade 3 unit 7 page 61.mp4";
 import audioBtn from "../../../assets/Page 01/Audio btn.svg";
 import pauseBtn from "../../../assets/Page 01/Right Video Button.svg";
 import AudioWithCaption from "../../AudioWithCaption";

@@ -12,7 +12,7 @@ import sound7 from "../../../assets/audio/ClassBook/Unit 7/P 60/Pg60_5.2_Girl.mp
 import AudioWithCaption from "../../AudioWithCaption";
 import audioBtn from "../../../assets/Page 01/Audio btn.svg";
 import pauseBtn from "../../../assets/Page 01/Right Video Button.svg";
-import video from "../../../assets/videos/grade 3 unit 7 page 60.mp4";
+// import video from "../../../assets/videos/grade 3 unit 7 page 60.mp4";
 import { useContext } from "react";
 import { AudioContext } from "../../../AudioContext";
 

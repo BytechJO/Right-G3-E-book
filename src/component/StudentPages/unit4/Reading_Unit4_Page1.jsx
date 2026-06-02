@@ -9,7 +9,7 @@ import sound5 from "../../../assets/audio/ClassBook/Unit 4/P 38/Pg38_1.4_Adult L
 import AudioWithCaption from "../../AudioWithCaption";
 import audioBtn from "../../../assets/Page 01/Audio btn.svg";
 import pauseBtn from "../../../assets/Page 01/Right Video Button.svg";
-import video3 from "../../../assets/videos/reading/grade 3 unit 4 page 38-39 reading.mp4";
+// import video3 from "../../../assets/videos/reading/grade 3 unit 4 page 38-39 reading.mp4";
 import { useContext } from "react";
 import { AudioContext } from "../../../AudioContext";
 

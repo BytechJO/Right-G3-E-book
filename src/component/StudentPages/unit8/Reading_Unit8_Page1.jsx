@@ -9,7 +9,7 @@ import sound5 from "../../../assets/audio/ClassBook/Unit 8/P 74/Pg74_1.4_Adult L
 import AudioWithCaption from "../../AudioWithCaption";
 import audioBtn from "../../../assets/Page 01/Audio btn.svg";
 import pauseBtn from "../../../assets/Page 01/Right Video Button.svg";
-import video3 from "../../../assets/videos/reading/grade 3 unit 8 page 74-75 reading.mp4";
+// import video3 from "../../../assets/videos/reading/grade 3 unit 8 page 74-75 reading.mp4";
 import { useContext } from "react";
 import { AudioContext } from "../../../AudioContext";
 
@@ -153,7 +153,7 @@ const Reading_Unit8_Page1 = ({ openPopup }) => {
         </svg>
       </div>
 
-      <div
+      {/* <div
         className="pauseBtn-icon-CD-page21 hover:scale-110 transition"
         style={{ overflow: "visible" }}
       >
@@ -200,7 +200,7 @@ const Reading_Unit8_Page1 = ({ openPopup }) => {
             height="90"
           />
         </svg>
-      </div>
+      </div> */}
       <audio ref={audioRef} style={{ display: "none" }} />
     </div>
   );
