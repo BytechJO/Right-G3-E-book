@@ -1,0 +1,116 @@
+/* WRAPPER */
+.RCU-unit-read-choose-wrapper {
+  /* border: 3px solid #ff6b6b; */
+  border-radius: 18px;
+  padding: 20px 24px;
+  /* background: #fff3ea; */
+  /* max-width: 560px; */
+}
+
+/* TITLE */
+.RCU-unit-read-choose-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #24408f;
+}
+
+/* QUESTION ROW */
+.RCU-unit-read-choose-question {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 16px;
+  flex-direction: column;
+  /* margin-left: 70px; */
+  
+}
+/* NUMBER */
+.RCU-unit-read-choose-q-number {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* TEXT */
+.RCU-unit-read-choose-q-text {
+  flex: 1;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* OPTIONS CONTAINER */
+.RCU-unit-read-choose-options {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    /* grid-template-columns: 1fr; */
+}
+
+/* OPTION */
+.RCU-unit-read-choose-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* CIRCLE */
+.RCU-unit-read-choose-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+/* OPTION TEXT */
+.RCU-unit-read-choose-option-text {
+  /* font-weight: 600; */
+  font-size: 22px;
+}
+
+/* SELECTED STATE */
+.RCU-unit-read-choose-option-selected .RCU-unit-read-choose-circle {
+  background: #4d6cff;
+  color: #fff;
+  border-color: #4d6cff;
+}
+
+/* CHECK BUTTON */
+.RCU-unit-read-choose-check-btn {
+  margin-top: 16px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* SELECTED */
+.RCU-selected .RCU-unit-read-choose-circle {
+  background: #bfceff;
+  border-color: #4d6cff;
+}
+
+/* CORRECT */
+.RCU-correct .RCU-unit-read-choose-circle {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: white;
+}
+
+/* WRONG */
+.RCU-wrong .RCU-unit-read-choose-circle {
+  background: #f44336;
+  border-color: #f44336;
+  color: white;
+}
